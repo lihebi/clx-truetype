@@ -31,31 +31,31 @@
 @project renders TrueType fonts over X11 drawable (window or pixmap)
  using CLX, XRender, ZPB-TTF, CL-VECTORS.
 
-@project was originally written for mcclim font rendering 
+@project was originally written for mcclim font rendering
 by Gilbert Baumann and Andy Hefner.
+https://
 
-@c Version control
 @project is maintained in Git:
 @example
-git clone git://github.com/filonenko-mikhail/clx-truetype
+git clone https://github.com/filonenko-mikhail/clx-truetype
 @end example
 will get you a local copy.
 @example
-@url{http://github.com/filonenko-mikhail/clx-truetype/}
+@url{https://github.com/filonenko-mikhail/clx-truetype}
 @end example
 is the GitHub project page, where the issue tracker is located.
 
 @contents
 
 @menu
-* Overview::                    
-* Examples::                    
-* Dictionary::                  
-* Concept Index::               
-* Function Index::              
-* Variable Index::              
-* Type Index::                  
-* Colophon::                    
+* Overview::
+* Examples::
+* Dictionary::
+* Concept Index::
+* Function Index::
+* Variable Index::
+* Type Index::
+* Colophon::
 @end menu
 
 @node Overview
@@ -127,7 +127,7 @@ Here it is complete example. Just insert it into repl, and evaluate (show-window
   (let* ((black (xlib:screen-black-pixel *screen*))
          (white (xlib:screen-white-pixel *screen*))
          (window
-           (xlib:create-window :parent *root* :x 0 :y 0 :width 640 :height 480 
+           (xlib:create-window :parent *root* :x 0 :y 0 :width 640 :height 480
                           :class :input-output
                           :background white
                           :event-mask '(:key-press :key-release :exposure :button-press
