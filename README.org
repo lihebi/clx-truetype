@@ -1,0 +1,10 @@
+* Clx-TrueType
+  Pure Common Lisp TrueType anti-aliased fonts rendering using CLX and Xrender extension.
+* This a fork
+  Former author (filonenko) closed his GITHUB account.
+* Web manual
+  http://filonenko-mikhail.github.com/clx-truetype/
+* Contact
+  *email*: filonenko.mikhail at gmail.com
+  *jabber*: asvil@jabber.ru
+  *skype*: filonenko.mikhail
